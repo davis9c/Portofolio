@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     // Tampilkan modal saat halaman dimuat
     const myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
-    myModal.show();
+    //myModal.show();
 
     // fitur go to top
      $(window).scroll(function () {
@@ -41,5 +41,6 @@ $(document).ready(function () {
       return false;
     });
 });
+
 
 
