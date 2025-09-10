@@ -6,7 +6,7 @@ $(document).ready(function () {
         const nama = $('#nama_pengunjung').val().trim();
 
         if (!nama) {
-            event.preventDefault(); // Batalkan penutupan modal
+            //event.preventDefault(); // Batalkan penutupan modal
             $('#nama_pengunjung').addClass('is-invalid');
             $('#peringatan-wajib').html('<div class="alert alert-danger" role="alert">WAJIB ISI NAMA!</div>');
         }
@@ -41,3 +41,4 @@ $(document).ready(function () {
       return false;
     });
 });
+
